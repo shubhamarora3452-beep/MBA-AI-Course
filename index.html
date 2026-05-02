@@ -8,9 +8,13 @@
     <style>
         body { background-color: #f4f7f6; font-family: 'Segoe UI', sans-serif; }
         .semester-header { border-left: 5px solid #2c3e50; padding-left: 15px; margin: 30px 0; color: #2c3e50; }
-        .course-card { border: none; border-radius: 12px; height: 100%; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
-        .prof-label { font-weight: 600; color: #6c757d; font-size: 0.85rem; margin-top: 10px; display: block; }
+        .course-card { border: none; border-radius: 12px; height: 100%; box-shadow: 0 4px 6px rgba(0,0,0,0.05); transition: 0.3s; }
+        .course-card:hover { transform: translateY(-5px); }
+        .prof-label { font-weight: 600; color: #6c757d; font-size: 0.8rem; margin-top: 10px; display: block; text-transform: uppercase; }
         .btn-class { border-radius: 6px; margin-top: 5px; font-weight: 500; }
+        .resource-section { border-top: 1px solid #eee; margin-top: 15px; padding-top: 10px; }
+        .resource-link { font-size: 0.85rem; text-decoration: none; color: #0d6efd; display: block; margin-bottom: 5px; }
+        .resource-link:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
@@ -28,8 +32,14 @@
             <div class="card course-card p-3">
                 <div class="card-body">
                     <h5 class="card-title text-primary">Business Statistics</h5>
-                    <span class="prof-label">Prof. Sandeep Kayastha</span>
+                    <span class="prof-label">Recordings</span>
                     <a href="stats-c1.html" class="btn btn-outline-dark btn-sm btn-class w-100">Class - 1</a>
+                    
+                    <div class="resource-section">
+                        <span class="prof-label">Resources</span>
+                        <a href="books/stats_textbook.pdf" target="_blank" class="resource-link">📄 Main Textbook (PDF)</a>
+                        <a href="books/formula_sheet.pdf" target="_blank" class="resource-link">📄 Formula Sheet</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -39,11 +49,16 @@
             <div class="card course-card p-3">
                 <div class="card-body">
                     <h5 class="card-title text-success">Managerial Accounting</h5>
-                    <span class="prof-label">Prof. Ankita Nagpal</span>
+                    <span class="prof-label">Prof. Nagpal</span>
                     <a href="acc-nagpal-c1.html" class="btn btn-outline-success btn-sm btn-class w-100">Class - 1</a>
-                    
-                    <span class="prof-label">Prof. Abhishek Sinha</span>
+                    <span class="prof-label">Prof. Sinha</span>
                     <a href="acc-sinha-c1.html" class="btn btn-outline-success btn-sm btn-class w-100">Class - 1</a>
+                    
+                    <div class="resource-section">
+                        <span class="prof-label">Resources</span>
+                        <a href="books/accounting_basics.pdf" target="_blank" class="resource-link">📄 Basics of Accounting</a>
+                        <a href="books/case_study_1.docx" target="_blank" class="resource-link">📝 Case Study 1 (DOC)</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -53,24 +68,34 @@
             <div class="card course-card p-3">
                 <div class="card-body">
                     <h5 class="card-title text-info">Marketing Management</h5>
-                    <span class="prof-label">Prof. Atul Kumar</span>
+                    <span class="prof-label">Prof. Kumar</span>
                     <a href="mkt-kumar-c1.html" class="btn btn-outline-info btn-sm btn-class w-100">Class - 1</a>
-                    
-                    <span class="prof-label">Prof. Sagar Venkateshwar</span>
+                    <span class="prof-label">Prof. Venkateshwar</span>
                     <a href="mkt-sagar-c1.html" class="btn btn-outline-info btn-sm btn-class w-100">Class - 1</a>
+                    
+                    <div class="resource-section">
+                        <span class="prof-label">Resources</span>
+                        <a href="books/marketing_strategies.pdf" target="_blank" class="resource-link">📄 Marketing PDF</a>
+                    </div>
                 </div>
             </div>
         </div>
 
         <!-- Managing People -->
         <div class="col-md-3">
-            <div class="card course-card p-3 bg-light">
-                <div class="card-body text-center">
-                    <h5 class="card-title text-muted">Managing People & Org</h5>
-                    <p class="small text-muted mt-4">Recordings Pending</p>
+            <div class="card course-card p-3">
+                <div class="card-body">
+                    <h5 class="card-title text-warning">Managing People & Org</h5>
+                    <p class="small text-muted">Recordings Pending</p>
+                    
+                    <div class="resource-section">
+                        <span class="prof-label">Resources</span>
+                        <a href="books/org_behavior.pdf" target="_blank" class="resource-link">📄 Org Behavior PDF</a>
+                    </div>
                 </div>
             </div>
         </div>
+
     </div>
 </div>
 </body>
