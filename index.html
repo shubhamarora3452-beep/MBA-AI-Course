@@ -3,142 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MBA Portal</title>
-    <!-- Bootstrap CSS -->
+    <title>MBA AI for Business | Student Portal</title>
+    <!-- Modern Font & Bootstrap -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Your New CSS File -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
-    <div class="container">
-        <span class="navbar-brand mb-0 h1">MBA in AI for Business</span>
-        <div class="ms-auto d-flex gap-2">
-            <!-- Gmail Draft Button -->
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=support@wilp.bits-pilani.ac.in" target="_blank" class="btn btn-outline-light btn-sm d-flex align-items-center gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
-                  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-.239-.145Zm3.436-.569L16 11.801V4.697l-5.803 3.564Z"/>
-                </svg>
-                Support Email
+    <!-- Modern Navigation -->
+    <nav class="navbar sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <span class="fs-4">BITS <span class="text-primary">WILP</span> Portal</span>
             </a>
-            <!-- Join Unofficial Group Button -->
-            <a href="https://chat.whatsapp.com/DpaxZ8gFwl0HOb2QBlEIQs" target="_blank" class="btn btn-success btn-sm d-flex align-items-center gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                  <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.104-1.08a7.863 7.863 0 0 0 3.89.976h.004c4.414 0 8.007-3.592 8.007-7.926a7.859 7.859 0 0 0-2.404-5.645zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
-                </svg>
-                Join Unofficial Group
-            </a>
-        </div>
-    </div>
-</nav>
-   <div class="container">
-    <div class="portal-container shadow-sm">
-        <div class="d-flex flex-wrap gap-3 align-items-center">
-            <span class="text-muted small fw-bold me-3">UNIVERSITY PORTALS</span>
-            <a href="https://elearn.bits-pilani.ac.in/" target="_blank" class="portal-btn">🔹 eLearn Portal</a>
-            <a href="https://taxila-aws.bits-pilani.ac.in/my/courses.php" target="_blank" class="portal-btn">🔹 Taxila Portal</a>
-            <a href="https://my.openathens.net/" target="_blank" class="portal-btn">🔹 Library Access</a>
-        </div>
-    </div>
-</div>
-<div class="container mb-5">
-    <h2 class="semester-header">Semester 1</h2>
-    <div class="row g-4">
-        
-   <!-- Business Statistics Box -->
-<div class="col-md-3">
-    <div class="card course-card p-3">
-        <div class="card-body">
-            <h5 class="card-title text-primary">Business Statistics</h5>
-            
-            <!-- Professor Name Added Here -->
-            <span class="prof-label">Prof. Sandeep Kayastha</span>
-            <div class="d-flex flex-wrap gap-2">
-                <a href="stats-c1.html" class="btn btn-outline-dark btn-sm btn-class flex-fill">Class - 1</a>
-                <a href="stats-c2.html" class="btn btn-outline-dark btn-sm btn-class flex-fill">Class - 2</a>
+            <div class="d-flex gap-2">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=support@wilp.bits-pilani.ac.in" target="_blank" class="btn btn-outline-dark btn-sm">Support Email</a>
+                <a href="https://chat.whatsapp.com/DpaxZ8gFwl0HOb2QBlEIQs" target="_blank" class="btn btn-success btn-sm px-3">Join Unofficial Group</a>
             </div>
-            
-            <div class="resource-section mt-3">
-                <span class="prof-label">Assignments</span>
-                <a href="https://docs.google.com/spreadsheets/d/12viYGkpuoijLvZ65Es5af9aLPx1g50Ok/edit?usp=sharing" target="_blank" class="resource-link text-danger">📝 Homework - 1</a>
-            </div>
+        </div>
+    </nav>
 
-            <div class="resource-section mt-2">
-                <span class="prof-label">Resources</span>
-                <a href="https://drive.google.com/file/d/1YcPlRR_UZ9MtZndEjN87ZJ_6O5WQH0SU/view?usp=sharing" target="_blank" class="resource-link">📘 Business Stats Textbook</a>
-                <a href="https://drive.google.com/drive/folders/1VWLozcxDOK2BqLhE7n0PwpGg-mx4GnE3?usp=sharing" target="_blank" class="resource-link">📂 View All Resources</a>
+    <div class="container mt-4">
+        <!-- Hero Header -->
+        <div class="p-5 mb-5 rounded-4 shadow-sm border-0 position-relative overflow-hidden" style="background: linear-gradient(135deg, #0a4275 0%, #031d33 100%);">
+            <div class="position-relative z-index-2">
+                <h1 class="display-5 fw-bold text-white">MBA in AI for Business</h1>
+                <p class="fs-5 text-white-50">Academic Dashboard • Semester 01 • 2026 Batch</p>
+                <hr class="text-white-50 my-4" style="width: 100px; height: 3px;">
             </div>
         </div>
-    </div>
-</div>
- <!-- Managerial Accounting Box -->
-<div class="col-md-3">
-    <div class="card course-card p-3">
-        <div class="card-body">
-            <h5 class="card-title text-success">Managerial Accounting</h5>
-            
-            <span class="prof-label">Prof. Ankita Nagpal</span>
-            <div class="d-flex flex-wrap gap-2">
-                <a href="acc-nagpal-c1.html" class="btn btn-outline-success btn-sm btn-class flex-fill">Class - 1</a>
-                <a href="acc-nagpal-c2.html" class="btn btn-outline-success btn-sm btn-class flex-fill">Class - 2</a>
-            </div>
-            
-            <span class="prof-label mt-3">Prof. Abhishek Sinha</span>
-            <div class="d-flex flex-wrap gap-2">
-                <a href="acc-sinha-c1.html" class="btn btn-outline-success btn-sm btn-class flex-fill">Class - 1</a>
-            </div>
-            
-            <div class="resource-section mt-3">
-                <span class="prof-label">Resources</span>
-                <a href="https://drive.google.com/drive/folders/1y5Wtet5yyvTdewEWcX9igtgi4pZ47Sb4?usp=sharing" target="_blank" class="resource-link">📂 Prof. Ankita: Class Materials</a>
-                <a href="https://drive.google.com/drive/folders/14Z-SE2MCzXuITtJRyt3gakTBgeHQZQq9?usp=sharing" target="_blank" class="resource-link">📂 Prof. Sinha: Class Materials</a>
-            </div>
-        </div>
-    </div>
-</div>
-      <!-- Marketing Management Box -->
-<div class="col-md-3">
-    <div class="card course-card p-3">
-        <div class="card-body">
-            <h5 class="card-title text-info">Marketing Management</h5>
-            
-            <span class="prof-label">Prof. Atul Kumar</span>
-            <div class="d-flex flex-wrap gap-2">
-                <a href="mkt-kumar-c1.html" class="btn btn-outline-info btn-sm btn-class flex-fill">Class - 1</a>
-                <a href="mkt-kumar-c2.html" class="btn btn-outline-info btn-sm btn-class flex-fill">Class - 2</a>
-            </div>
-            
-            <span class="prof-label mt-3">Prof. Sagar Venkateshwar</span>
-            <div class="d-flex flex-wrap gap-2">
-                <a href="mkt-sagar-c1.html" class="btn btn-outline-info btn-sm btn-class flex-fill">Class - 1</a>
-                <a href="mkt-sagar-c2.html" class="btn btn-outline-info btn-sm btn-class flex-fill">Class - 2</a>
-            </div>
-            
-            <div class="resource-section mt-3">
-                <span class="prof-label">Resources</span>
-                <a href="#" class="resource-link">📂 Course Materials Folder</a>
-            </div>
-        </div>
-    </div>
-</div>
 
-        <!-- Managing People -->
-        <div class="col-md-3">
-            <div class="card course-card p-3">
-                <div class="card-body">
-                    <h5 class="card-title text-warning">Managing People & Org</h5>
-                    <p class="small text-muted">Recordings Pending</p>
-                    
+        <!-- Quick Access Section -->
+        <div class="portal-container mb-5 text-center">
+            <p class="text-muted small fw-bold text-uppercase mb-3">University Portals</p>
+            <div class="d-flex flex-wrap gap-3 justify-content-center">
+                <a href="https://elearn.bits-pilani.ac.in/" target="_blank" class="portal-btn">🔹 eLearn</a>
+                <a href="https://taxila-aws.bits-pilani.ac.in/my/courses.php" target="_blank" class="portal-btn">🔹 Taxila</a>
+                <a href="https://my.openathens.net/" target="_blank" class="portal-btn">🔹 Library</a>
+            </div>
+        </div>
+
+        <!-- Course Grid -->
+        <div class="row g-4 mb-5">
+            
+            <!-- Business Statistics -->
+            <div class="col-md-4">
+                <div class="course-card">
+                    <h5 class="card-title text-primary">Business Statistics</h5>
+                    <span class="prof-label">Prof. Sandeep Kayastha</span>
+                    <div class="d-grid gap-2 mb-3">
+                        <a href="stats-c1.html" class="btn btn-class">Session 01: Basics</a>
+                        <a href="stats-c2.html" class="btn btn-class">Session 02: Numeric Measures</a>
+                    </div>
                     <div class="resource-section">
-                        <span class="prof-label">Resources</span>
-                        <a href="books/org_behavior.pdf" target="_blank" class="resource-link">📄 Org Behavior PDF</a>
+                        <a href="https://docs.google.com/spreadsheets/d/12viYGkpuoijLvZ65Es5af9aLPx1g50Ok/edit" target="_blank" class="resource-link text-danger">📝 Homework - 1</a>
+                        <a href="https://drive.google.com/drive/folders/1VWLozcxDOK2BqLhE7n0PwpGg-mx4GnE3" target="_blank" class="resource-link">📘 Course Materials</a>
                     </div>
                 </div>
             </div>
-        </div>
 
+            <!-- Managerial Accounting -->
+            <div class="col-md-4">
+                <div class="course-card">
+                    <h5 class="card-title text-success">Managerial Accounting</h5>
+                    
+                    <span class="prof-label">Prof. Ankita Nagpal</span>
+                    <div class="d-grid gap-2 mb-3">
+                        <a href="acc-nagpal-c1.html" class="btn btn-class">Session 01</a>
+                        <a href="acc-nagpal-c2.html" class="btn btn-class">Session 02</a>
+                    </div>
+
+                    <span class="prof-label">Prof. Abhishek Sinha</span>
+                    <div class="d-grid gap-2 mb-3">
+                        <a href="acc-sinha-c1.html" class="btn btn-class">Session 01</a>
+                    </div>
+
+                    <div class="resource-section">
+                        <a href="https://drive.google.com/drive/folders/1y5Wtet5yyvTdewEWcX9igtgi4pZ47Sb4" target="_blank" class="resource-link">📂 Nagpal Drive</a>
+                        <a href="https://drive.google.com/drive/folders/14Z-SE2MCzXuITtJRyt3gakTBgeHQZQq9" target="_blank" class="resource-link">📂 Sinha Drive</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Marketing Management -->
+            <div class="col-md-4">
+                <div class="course-card">
+                    <h5 class="card-title text-info">Marketing Management</h5>
+                    
+                    <span class="prof-label">Prof. Atul Kumar</span>
+                    <div class="d-grid gap-2 mb-3">
+                        <a href="mkt-kumar-c1.html" class="btn btn-class">Session 01</a>
+                        <a href="mkt-kumar-c2.html" class="btn btn-class">Session 02</a>
+                    </div>
+
+                    <span class="prof-label">Prof. Sagar Venkateshwar</span>
+                    <div class="d-grid gap-2 mb-3">
+                        <a href="mkt-sagar-c1.html" class="btn btn-class">Session 01</a>
+                        <a href="mkt-sagar-c2.html" class="btn btn-class">Session 02</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
-</div>
+
+    <!-- Footer -->
+    <footer class="text-center py-4 text-muted small">
+        &copy; 2026 Student Learning Portal | Crafted for MBA AI
+    </footer>
+
 </body>
 </html>
